@@ -30,13 +30,15 @@
   </PropertyGroup>
   <ItemGroup>
     <Content Include="app.js" />
+    <Content Include="routes\sally.js" />
+    <Content Include="routes\sam.js" />
+    <Content Include="routes\shawn.js" />
     <Content Include="routes\index.js" />
     <Content Include="routes\users.js" />
     <Content Include="package.json" />
     <Content Include="public\stylesheets\main.css" />
     <Content Include="README.md" />
     <Content Include="views\header.pug" />
-    <Content Include="views\rick.pug" />
     <Content Include="views\sally.pug" />
     <Content Include="views\sam.pug" />
     <Content Include="views\shawn.pug" />

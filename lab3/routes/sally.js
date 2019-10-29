@@ -4,8 +4,13 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function (req, res) {
-    res.render('index', { title: 'Family Tree' });
 
-});
+
+    var nameSally = 'sally';
+    var message3 = "I like hockey";
+
+    res.render('sally', { person: nameSally, p: message3 });
+}); 
+
 
 module.exports = router;

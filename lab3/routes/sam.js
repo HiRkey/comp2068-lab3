@@ -4,8 +4,12 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function (req, res) {
-    res.render('index', { title: 'Family Tree' });
 
-});
+    var nameSam = 'sam';
+    var message2 = "I like golf";
+
+    res.render('sam', { person: nameSam, p: message2 });
+}); 
+
 
 module.exports = router;

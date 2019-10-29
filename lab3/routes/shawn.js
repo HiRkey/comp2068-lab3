@@ -4,8 +4,11 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function (req, res) {
-    res.render('index', { title: 'Family Tree' });
 
+    var nameShawn = 'shawn';
+    var message1 = "I like soccer";
+
+    res.render('shawn', { person: nameShawn, p: message1 });
 });
 
 module.exports = router;
